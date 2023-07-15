@@ -72,9 +72,42 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  margin-bottom: 24px;
 }
 
 .footer > span {
   font-weight: 700;
   text-decoration: underline;
+}
+
+/* responsive design */
+@media screen and (max-width: 576px) {
+  .description {
+    padding: 20px 0 0 24px;
+  }
+
+  .banner {
+    padding: 64px 24px 114px;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .banner-img {
+    width: 100%;
+  }
+
+  .banner-title {
+    width: 100%;
+  }
+
+  .banner-header {
+    margin-bottom: 30px;
+    font-size: 48px;
+  }
+
+  .banner-description {
+    margin-bottom: 66px;
+    padding-right: 0px;
+    font-size: 18px;
+  }
 }
